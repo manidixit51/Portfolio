@@ -21,7 +21,7 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
-        <Col md={4} className="project-card">
+        {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={CryptoHunter}
               isBlog={false}
@@ -30,7 +30,7 @@ function Projects() {
               ghLink="https://github.com/nimitagarwal26/CryptoHunter"
               
             />
-          </Col>
+          </Col> */}
 
         <Col md={4} className="project-card">
             <ProjectCard
