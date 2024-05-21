@@ -4,7 +4,6 @@ import myImg from "../../Assets/39552-removebg-preview.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
   AiFillGoogleCircle,
 } from "react-icons/ai";
