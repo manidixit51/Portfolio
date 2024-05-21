@@ -3,7 +3,7 @@
   <a href="https://manidixit-portfolio.vercel.app/" target="_blank">Mani.Portfolio</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/Beige_Minimalist_New_Website_Launch_Instagram_Post (1).png" />
+  <img alt="Demo" src="./Images/Beige Minimalist New Website Launch Instagram Post (1).png" />
 </div>
 
 <br/>
