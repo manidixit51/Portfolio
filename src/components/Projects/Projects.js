@@ -59,8 +59,8 @@ function Projects() {
               isBlog={false}
               title="Bloom Hub"
               description="BloomHub is a captivating HTML/CSS static website revolutionizing flower purchasing. Its visually stunning catalog showcases fresh blooms for every occasion. With a seamless ordering process, users effortlessly select and purchase bouquets. Reliable delivery ensures flowers arrive fresh and on time. BloomHub aims to enhance the floral shopping experience, prioritizing elegance, convenience, and quality."
-              ghLink="https://github.com/manidixit51/Sushi-Man"
-              demoLink="https://manidixit51.github.io/Sushi-Man/"
+              // ghLink="https://github.com/manidixit51/Sushi-Man"
+              // demoLink="https://manidixit51.github.io/Sushi-Man/"
             />
           </Col>
 
