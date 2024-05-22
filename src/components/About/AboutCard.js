@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Mani Dixit </span>
             from <span className="purple"> Gwalior, India.</span>
             <br />
-            I am currently pursuing Btech from Jaypee University of Engineering and Technology, Guna.
+            I am currently pursuing <span className="purple">Btech</span> from <span className="purple">Jaypee University of Engineering and Technology, Guna.</span>
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
