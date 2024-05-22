@@ -24,9 +24,6 @@ function Toolstack() {
         <SiIntellijidea/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFigma/>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
