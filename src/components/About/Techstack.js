@@ -10,14 +10,17 @@ import {
   DiGit,
   DiJava,
   DiHtml5,
-  DiCss3,
+  DiCss3, DiMysql, DiBootstrap, 
 } from "react-icons/di";
 import {
-  SiFirebase,
+  SiFirebase, 
   SiNextdotjs,
+  SiAngularjs, 
+  SiVuedotjs,
+
   
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
+import { TbBrandGolang, } from "react-icons/tb";
 
 function Techstack() {
   return (
@@ -29,7 +32,19 @@ function Techstack() {
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiHtml5html />
+        <DiMysql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiVuedotjs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAngularjs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiBootstrap />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiHtml5 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
