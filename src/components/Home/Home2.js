@@ -8,6 +8,7 @@ import {
   AiFillGoogleCircle,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 
 function Home2() {
   return (
@@ -65,6 +66,16 @@ function Home2() {
               Feel free to <span className="purple">connect </span>with me
             </p>
             <ul className="home-about-social-links">
+            <li className="social-icons">
+                <a
+                  href="mailto:manidixit512@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <AiFillGoogleCircle />
+                </a>
+              </li>
               <li className="social-icons">
                 <a
                   href="https://github.com/manidixit51"
@@ -98,12 +109,12 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="mailto:manidixit512@gmail.com"
+                  href="https://leetcode.com/u/manidixit512/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <AiFillGoogleCircle />
+                  <SiLeetcode />
                 </a>
               </li>
             </ul>

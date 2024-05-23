@@ -2,11 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
   AiFillGoogleCircle,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 
 function Footer() {
   let date = new Date();
@@ -22,6 +22,16 @@ function Footer() {
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
+          <li className="social-icons">
+              <a
+                href="mailto:manidixit512@gmail.com"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <AiFillGoogleCircle />
+              </a>
+            </li>
             <li className="social-icons">
               <a
                 href="https://github.com/manidixit51"
@@ -55,12 +65,12 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="mailto:manidixit512@gmail.com"
+                href="https://leetcode.com/u/manidixit512/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiFillGoogleCircle />
+                <SiLeetcode />
               </a>
             </li>
           </ul>
