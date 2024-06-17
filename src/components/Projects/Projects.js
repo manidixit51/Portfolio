@@ -7,6 +7,7 @@ import SushiMan from "../../Assets/Projects/SushiMan.png";
 import CryptoHunter from "../../Assets/Projects/CryptoHunter.png";
 import CarRental from "../../Assets/Projects/CarRental.png";
 import BloomHub from "../../Assets/Projects/BloomHub.png";
+import QuizApp from "../../Assets/Projects/QuizApp.png"
 
 function Projects() {
   return (
@@ -40,6 +41,18 @@ function Projects() {
               description="The Static Code Analyzer is a robust tool designed to analyze Java source code statically, identifying potential issues, violations of coding conventions, and design flaws. It dynamically processes XML-based rules for flexible rule definitions and customization. The tool integrates a perceptron-based AI model to evaluate code quality, detect patterns, and identify areas for improvement. Additionally, it features a comment density checker to ensure the maintainability and clarity of the codebase by evaluating the adequacy of code comments."
               ghLink="https://github.com/manidixit51/Static-Code-Analyser"
             />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={QuizApp}
+              isBlog={false}
+              title="Quiz App"
+              description="Experience a dynamic quiz-taking experience with our React Quiz Application. Utilizing fullscreen mode and a 10-minute timer, users can engage with multiple-choice questions sourced from a JSON file. The application ensures seamless progression by saving user data in localStorage, allowing resumption of quizzes even after page refresh. Built with React, HTML, and CSS, it offers a modern and responsive interface. Perfect for educational purposes or fun quizzes, it provides an interactive way to test knowledge while maintaining user engagement and ease of use. "
+              ghLink="https://github.com/manidixit51/Quiz"
+              demoLink="https://quiz-lyart-delta.vercel.app/"
+
+              />
           </Col>
 
           <Col md={4} className="project-card">
