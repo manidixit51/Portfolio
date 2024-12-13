@@ -14,13 +14,22 @@ function AboutCard() {
             I am currently pursuing <span className="purple">BTech (CSE)</span> from <span className="purple">Jaypee University of Engineering and Technology, Guna.</span>
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Beyond coding, I enjoy:
           </p>
           <ul>
             <li className="about-activity">
               <ImPointRight /> Playing Video Games
             </li>
         
+            <li className="about-activity">
+              <ImPointRight /> Reading Books
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Graphic Designing
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Photography
+            </li>
             <li className="about-activity">
               <ImPointRight /> Travelling
             </li>
