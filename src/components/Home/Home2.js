@@ -47,9 +47,9 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js, Node.js and Next.js</b>
+                <b className="purple"> React.js, and Next.js</b>
               </i>
-              </br>
+              <br/>
               I'm passionate about developing responsive, scalable, and secure applications, combining creativity with technology to deliver impactful results. &nbsp;
             </p>
           </Col>
