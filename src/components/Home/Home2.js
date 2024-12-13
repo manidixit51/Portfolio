@@ -38,7 +38,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              I specialize in building modern web applications using frameworks like<b className="purple"> Node.js</b> and
+              I specialize in building modern web applications using frameworks like<i><b className="purple"> Node.js</b></i> and
               <i>
                 <b className="purple">
                   {" "}
