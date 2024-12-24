@@ -38,7 +38,7 @@ function Projects() {
             <ProjectCard
               imgPath={Jarvis}
               isBlog={false}
-              title="JARVIS- A voice based virtual assistant"
+              title="JARVIS - A voice based virtual assistant"
               description="Jarvis is an advanced voice-controlled virtual assistant designed to simplify daily tasks by processing natural language commands. It leverages speech recognition and NLP technologies to execute tasks such as setting reminders, managing schedules, and fetching information. The system integrates text-to-speech (TTS) functionality to deliver natural voice responses, ensuring an intuitive user experience. Future enhancements include IoT integration for smart home control and offline capabilities, making Jarvis a versatile and user-friendly solution for modern needs."
               ghLink="https://github.com/manidixit51/JARVIS-A-voice-based-Personal-Assistant"
               
