@@ -7,7 +7,8 @@ import SushiMan from "../../Assets/Projects/SushiMan.png";
 import CryptoHunter from "../../Assets/Projects/CryptoHunter.png";
 import CarRental from "../../Assets/Projects/CarRental.png";
 import BloomHub from "../../Assets/Projects/BloomHub.png";
-import QuizApp from "../../Assets/Projects/QuizApp.png"
+import QuizApp from "../../Assets/Projects/QuizApp.png";
+import Jarvis from "../../Assets/Projects/Jarvis.png"
 
 function Projects() {
   return (
@@ -22,6 +23,7 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
+
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={CryptoHunter}
@@ -29,6 +31,16 @@ function Projects() {
               title="Crypto Hunter"
               description="Crypto Hunter is a sleek and intuitive application designed to empower cryptocurrency enthusiasts with real-time market insights. Integrated with Coin Gecko API for live updates, and fortified with Firebase for secure authentication and data storage, users can navigate the ever-changing landscape of digital currencies effortlessly. Built with React.js and Material UI, its responsive design ensures seamless access across devices, providing users with a visually appealing and dynamic tool for informed decision-making in the world of cryptocurrencies."
               ghLink="https://github.com/manidixit51/CryptoHunter"
+              
+            />
+          </Col>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Jarvis}
+              isBlog={false}
+              title="JARVIS- A voice based virtual assistant"
+              description="Jarvis is an advanced voice-controlled virtual assistant designed to simplify daily tasks by processing natural language commands. It leverages speech recognition and NLP technologies to execute tasks such as setting reminders, managing schedules, and fetching information. The system integrates text-to-speech (TTS) functionality to deliver natural voice responses, ensuring an intuitive user experience. Future enhancements include IoT integration for smart home control and offline capabilities, making Jarvis a versatile and user-friendly solution for modern needs."
+              ghLink="https://github.com/manidixit51/JARVIS-A-voice-based-Personal-Assistant"
               
             />
           </Col>
